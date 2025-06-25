@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscripción - Peluditos Vet</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Estilo para el fondo degradado -->
+    <style>
+      .fondo {
+        background: #40dde6;
+        background: linear-gradient(
+          339deg,
+          rgba(64, 221, 230, 1) 0%,
+          rgba(77, 209, 201, 1) 28%,
+          rgba(87, 199, 178, 1) 50%,
+          rgba(181, 255, 255, 1) 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="container-fluid min-vh-100 d-flex flex-column flex-md-row justify-content-center align-items-center fondo"
+    >
+      <!-- Formulario -->
+      <form
+        action="/presentacion.html"
+        class="p-4 bg-white rounded shadow"
+        style="max-width: 400px; width: 100%"
+      >
+        <h2 class="text-center mb-4">Inscripción</h2>
+
+        <div class="mb-3">
+          <label for="tutor" class="form-label">Tutor</label>
+          <input
+            type="text"
+            id="tutor"
+            class="form-control"
+            placeholder="Ingresa tu nombre"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="celular" class="form-label">Celular</label>
+          <input
+            type="tel"
+            id="celular"
+            class="form-control"
+            placeholder="Ingresa tu número de celular"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            class="form-control"
+            placeholder="Ingresa tu correo electrónico"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="peludito" class="form-label">Nombre del peludito</label>
+          <input
+            type="text"
+            id="peludito"
+            class="form-control"
+            placeholder="Ingresa el nombre de tu peludito"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+      </form>
+
+      <!-- Imagen -->
+      <div class="text-center mt-4 mt-md-0 ms-md-5">
+        <img
+          src="/peluditosVet/estilos/img/logo.png"
+          alt="Logo Peluditos Vet"
+          class="img-fluid"
+          style="max-width: 200px"
+        />
+      </div>
+    </div>
+  </body>
+</html>
