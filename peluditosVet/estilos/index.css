@@ -1,0 +1,17 @@
+.fondo {
+  background: #40dde6;
+  background: linear-gradient(339deg, rgba(64, 221, 230, 1) 0%, rgba(77, 209, 201, 1) 28%, rgba(87, 199, 178, 1) 50%, rgba(181, 255, 255, 1) 100%);
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  gap: 10px;
+}
+
+.radio {
+  border-radius: 100%;
+}
